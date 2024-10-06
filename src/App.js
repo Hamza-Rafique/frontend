@@ -1,6 +1,5 @@
 import React from 'react';
-import PredictLoyalty from './components/PredictLoyalty';
-
+import PredictLoyalty from './pages/PredictLoyalty';
 import './App.css';
 
 function App() {

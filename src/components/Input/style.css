@@ -1,0 +1,29 @@
+.input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  margin: auto;
+}
+.input-field label {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.input-field p {
+  font-size: 0.9rem;
+  color: #f00;
+}
+
+input {
+  padding: 0.75rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #8e2de2;
+  box-shadow: 0px 0px 5px rgba(142, 45, 226, 0.4);
+}
